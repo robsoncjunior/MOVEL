@@ -1,0 +1,8 @@
+{
+  "name": "MOVEL",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,61 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-menu-button slot="start"></ion-menu-button>
+    <ion-title>Home</ion-title>
+
+    
+  </ion-toolbar>
+ 
+
+  
+
+  
+
+
+  
+</ion-header>
+
+<ion-content color="dark">
+  <ion-list *ngFor="let p of personas">
+    <ion-item>{{p.nome}}
+     <ion-avatar slot="end">
+       <ion-img [src]="p.url"></ion-img>
+     </ion-avatar>
+   </ion-item>
+ </ion-list>
+
+  
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+
+        
+        
+        <div class="ion-text-start">
+          <P>Foi desenvolvido uma aplicação para sistema Android, utilizando o Ionic Framework versão 5.</P>
+          <p>Todo o código-fonte se encontra hospedado no GitHub e a parte de autenticação de usuário cadastrada no Firebase. </p>
+          <p>Aplicativo desenvolvido por Robson Castro. Graduando do curso de Ciência da Computação.</p>
+         
+         
+        </div>
+        
+        
+    
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+<div color="dark">
+  <p>Redes Sociais:</p>
+  <ion-button color="medium" href="https://www.facebook.com/robsonscastro.jr"> Facebook</ion-button>
+  <ion-button color="medium" href="https://www.linkedin.com/in/robson-castro-ti/"> Linkedin</ion-button>
+
+</div>
+  
+  
+  
+
+</ion-content>
+
+
+
